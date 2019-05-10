@@ -1,0 +1,14 @@
+# pycharm
+.idea/
+
+# output file
+outfile*.txt
+
+# images
+images/
+
+# font
+cournew.TTF
+
+# letter value images
+letters/
