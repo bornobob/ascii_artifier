@@ -5,12 +5,12 @@ from multiprocessing import Pool
 import time
 
 
-X_CONST, Y_CONST = 3, 6
+X_CONST, Y_CONST = 1, 2
 CHARACTERS = '!"#$%&\'()*+,-./:;?@[\\]^`{|}~_ '
 THREADS = 4
 IMAGE_PATH = 'images/mario.jpg'
 OUTFILE = 'outfile.txt'
-MULTITHREAD = True
+MULTITHREAD = THREADS > 1
 
 
 def ascii_artify_partial_image(image, y_num_from, y_num_until, letters_val):
